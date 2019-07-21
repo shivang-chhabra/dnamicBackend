@@ -69,6 +69,6 @@ const server = http.createServer(function (req, res) {
    // res.write(file);
    //nod res.end("Response ended");
 });
-var port = process.env.PORT || 80;
-server.listen(3600);
+var port = process.env.PORT||80;
+server.listen(port);
 console.log("Server has started");
